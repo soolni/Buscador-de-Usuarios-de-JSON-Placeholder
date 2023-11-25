@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(199, 218, 252);
+}
+
+h1 {
+    font-weight: 800;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.5rem;
+    color: rgb(42, 22, 53);
+    margin: 5%;
+}
+
+#buscador {
+    min-width: 100%;
+    text-align: center;
+    outline: none;
+    color: rgb(173, 173, 173);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    border-radius: 5px;
+    border-color: rgb(42, 22, 53);
+}
+
+#buscador:hover {
+    background-color: rgb(42, 22, 53);
+}
+
+.card {
+    background-color: rgb(42, 22, 53);
+    border-color:  rgb(199, 218, 252);
+}
+
+.nombrePersona {
+    color: white;
+}
+
+.datosDelGrupo {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    text-align: center;
+}
+
+.saberMas {
+    min-width: 100%;
+    background-color:  rgb(149, 174, 216);
+    border: 0px;
+}
+
+.saberMas:hover{
+    background-color: rgb(57, 29, 71);
+    color: whitesmoke;
+}
+
+.cardInfo {
+     padding: 20px;
+     margin: 5%;
+}
+
+.phrase {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.cerrar {
+    background-color:  rgb(149, 174, 216);
+    border: 0px;
+}
+
+.cerrar:hover {
+    background-color:  rgb(57, 29, 71);
+    color: whitesmoke;
+}
