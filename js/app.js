@@ -148,5 +148,8 @@ async function getData() {
     }
 }
 
+document.addEventListener("DOMContentLoaded", function(){
+    getData()
+})
 
 
