@@ -144,16 +144,9 @@ async function getData() {
         })
     
     } catch(error) {
-
         console.log(error);
-
     }
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-    getData()
-    const botones = document.querySelectorAll(".saberMas")
-    console.log(botones)
-})
 
 
